@@ -1,5 +1,9 @@
 var highScores = [];
 var timerEl = $('#timer');
+var btnStartEl = $('#btn-start');
+
+
+
 
 var timerCounter = function() {
     var timeLeft = 5;
@@ -19,7 +23,14 @@ var timerCounter = function() {
     }, 1000);
 };
 
-timerCounter();
+// start button clicked function
+var startQuiz = function() {
+    console.log("The start button has been clicked!");
+    btnStartEl.addClass("d-none")
+    timerCounter();
+};
+
+btnStartEl.on('click', startQuiz);
 
 // need to retrieve all high scores from local storage
 

@@ -2,8 +2,7 @@ var highScores = [];
 var timerEl = $('#timer');
 var btnStartEl = $('#btn-start');
 
-
-
+// need to retrieve all high scores from local storage
 
 var timerCounter = function() {
     var timeLeft = 5;
@@ -26,14 +25,17 @@ var timerCounter = function() {
 // start button clicked function
 var startQuiz = function() {
     console.log("The start button has been clicked!");
-    btnStartEl.addClass("d-none")
+    btnStartEl.addClass("d-none");
     timerCounter();
+    createQuestion();
 };
 
 btnStartEl.on('click', startQuiz);
 
-// need to retrieve all high scores from local storage
-
+// logic to display first question
+var createQuestion = function() {
+    console.log(testQuestions[0]);
+};
 
 // need to store high score in local storage
 

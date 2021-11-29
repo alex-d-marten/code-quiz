@@ -7,3 +7,10 @@
     text-align: right;
     margin-right: 5px;
 }
+
+.answers {
+    align-content: center;
+    text-align: left;
+    list-style-type: numbered;
+    cursor: pointer;
+}

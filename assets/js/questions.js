@@ -1,4 +1,4 @@
-const testQuestions = [
+let testQuestions = [
     {
         questionTextContent: "What is hoisting?",
         questionsAnswers: [
@@ -19,7 +19,8 @@ const testQuestions = [
                 correct: false,
             },
         ],
-
+    },
+    {
         questionTextContent: "What is bootstrap?",
         questionsAnswers: [
             {
@@ -39,7 +40,8 @@ const testQuestions = [
                 correct: false,
             },
         ],
-
+    },
+    {
         questionTextContent: "What is an API?",
         questionsAnswers: [
             {
@@ -59,7 +61,8 @@ const testQuestions = [
                 correct: false,
             },
         ],
-
+    },
+    {
         questionTextContent: "What is a Media Query in CSS?",
         questionsAnswers: [
             {
@@ -79,7 +82,8 @@ const testQuestions = [
                 correct: false,
             },
         ],
-
+    },
+    {
         questionTextContent: "Which option below shows the correct utilization of a jQuery?",
         questionsAnswers: [
             {
@@ -101,3 +105,5 @@ const testQuestions = [
         ],
     },
 ];
+
+

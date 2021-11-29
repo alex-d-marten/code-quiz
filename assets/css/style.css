@@ -1,0 +1,42 @@
+* {
+    background-color: rgb(0, 217, 255);
+}
+
+#high-score {
+    text-align: left;
+    margin-left: 5px;
+}
+
+#timer {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.answers {
+    align-content: center;
+    text-align: left;
+    list-style-type: numbered;
+    cursor: pointer;
+}
+
+.scores {
+    list-style-type: none;
+    text-align: left;
+}
+
+.retry {
+    cursor: pointer;
+    background-color: lemonchiffon;
+}
+
+.score-list-items {
+    background-color: indigo;
+}
+
+.score-title {
+    background-color: darksalmon;
+}
+
+.main-text {
+    margin: 0 25% 0 25%;
+}

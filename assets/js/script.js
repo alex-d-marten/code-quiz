@@ -54,7 +54,7 @@ var timerStop = function() {
 var startQuiz = function() {
     questionIndex = 0;
     numberCorrect = 0;
-    timeLeft = 100;
+    timeLeft = 50;
     timerCounter();
     btnStartEl.addClass('d-none');
     displayQuestions();

@@ -24,20 +24,30 @@
 
       <main class="row mt-5 justify-content-center text-center">
 
+        <!-- retake quiz button -->
+        <section class="try-again"></section>
+
         <!-- button to start the quiz -->
-        <button class="btn btn-primary mt-5 col-12" id="btn-start">Click here to start the quiz!</button>
+        <button class="btn btn-primary mt-5 col-12 p-3" id="btn-start">Click here to start the quiz!</button>
 
         <h4 class="question"></h4>
         <!-- empty section for question and possible answers -->
-        <section class="answers d-flex flex-column flex-wrap">
-        </section>
+        <section class="answers d-flex flex-column flex-wrap"></section>
+
+        <!-- empty section for high score title -->
+        <section class="score-title d-flex justify-content-center mt-3"></section>
+
+        <!-- empty section for high score list -->
+        <section class="scores d-flex flex-column flex-wrap text-left mt-4 mb-4"></section>
 
         <!-- user name entry and button submission to save high score to local storage -->
         <section class="high-score-entry d-none">
-          <h4 class="mb-2">The quiz is complete, please submit your high score and try to beat it!</h4>
-          <input type="text" placeholder="Please enter your name." class="input-high-score">
-          <button class="btn-primary btn-score text-center d-none rounded ml-2" type="button">Submit High Score!</button>
+          <h4 class="mb-2 p-3">The quiz is complete. please submit your high score and try to beat it!</h4>
+          <input type="text" placeholder="Please enter your name." class="input-high-score p-3">
+          <button class="btn-primary btn-score text-center d-none rounded ml-2 p-3" type="button">Submit High Score!</button>
         </section>
+
+        
 
       </main>
     </div>

@@ -1,3 +1,7 @@
+* {
+    background-color: rgb(0, 217, 255);
+}
+
 #high-score {
     text-align: left;
     margin-left: 5px;
@@ -13,4 +17,22 @@
     text-align: left;
     list-style-type: numbered;
     cursor: pointer;
+}
+
+.scores {
+    list-style-type: none;
+    text-align: left;
+}
+
+.retry {
+    cursor: pointer;
+    background-color: lemonchiffon;
+}
+
+.score-list-items {
+    background-color: indigo;
+}
+
+.score-title {
+    background-color: darksalmon;
 }
